@@ -42,13 +42,13 @@ class Calculator {
         this.updateDisplay();
     }
 
-    insertOperator (operator) {
+    insertOperator (operador) {
 
         if(this.operator){
             this.calculate()
         }
 
-        this.operator = operator;
+        this.operator = operador;
         
         this.valorInferior === '0' 
             ? this.valorSuperior = this.valorSuperior
